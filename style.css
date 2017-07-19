@@ -95,7 +95,30 @@ p span {
 }
 
 .text-justify {
-  text-align: justify;;
+  text-align: justify;
+}
+
+#sidebar {
+  background-color: grey;
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#sidebar i {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin: 20px auto;
+}
+
+#sidebar ul {
+  margin: 40px auto;
 }
 
 a:hover {
